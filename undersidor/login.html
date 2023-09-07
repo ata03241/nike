@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="Viewport"  content="width=device-width, initial-scale=1,0">
+    <title> Buddha Nepal</title> <!--title for my hemsida-->
+    <link rel="stylesheet" href="../style.css">  <!--connect underpage to css-->
+    <link rel="stylesheet"  type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+        <img src="../images/logo.png" class="logo"> <!--Logo and icons photo -->
+        <div class="icons">
+            <img src="../images/fav.png" class="fav-icon"> <span style="padding-left: 50px ;" class="span"></span>
+            <img src="../images/263142.png" class="shopping-icon">  <span style="padding-left: 50px ;" class="span"></span>
+            <img src="../images/500px-Search_Icon.svg.png" class="search-icon"> <span style="padding-left: 50px ;" class="span"></span>
+        </div>
+        
+        <div id="myMenu" class="dropdown">   <!--hamburger menu and lists-->
+            <a href="javascript: void(0)" class="buttonX" onclick="closeMenu()">&times;</a>
+            <div class="dropdown-lists">
+                <a href="#">News</a>
+                <a href="#">Man</a>
+                <a href="#">Women</a>
+                <a href="#">Children</a>
+                <a href="#">Rea</a>
+                <a href="#">Collection</a>
+            </div>
+        </div>
+        <span class="menu" onclick="openMenu()">&#9776;</span>
+        <script src="../app.js"></script> <!--javascript for hamburger menu (close and dropdown)-->
+   </div>
+  </div>
+
+  <!--Login-box (first under page)-->
+
+  <div class="Login-box ">
+    <h2 id="login"> BUDDHA NEPAL</h2>
+    <p id="sing">Sing in to your Gaming World account</p>
+    <form>
+      <label>Email or number</label>
+      <input type="text" placeholder="email">
+      <label>password</label>
+      <input type="password" placeholder="Password">
+    <a href="../index.html"> <input type="button" value="LOGIN"></a> 
+    </form>
+    <p class="terms">By clicking the login button, you agree to our</p> 
+    <a href="#">Terms and Condition</a> and <a href="../index.html">Policy privacy</a>
+    <p id="Logs">Not have an account? <a href="signup.html">Sign Up here</a></p>
+  </div> 
+
+  <!--footer for Login page-->
+
+  <footer class="footer">
+    <div class="row">
+      <div class="foot">
+        <h3>Company</h3> <br>
+         <ul>
+           <li><a href="#">About us</a></li> <br>
+           <li><a href="#">Our service</a></li> <br>
+           <li><a href="#">Privacy policy</a></li> <br>
+           <li><a href="#">Affiliate program</a></li> <br>
+         </ul>
+      </div>
+      <div class="foot">
+        <h3> About US</h3> <br>
+         <ul>
+          <li><a href="#"> News</a></li> <br>
+           <li><a href="#"> News</a></li> <br>
+           <li><a href="#">Career</a></li> <br>
+           <li><a href="#">Investor</a></li> <br>
+           <li><a href="#">Sustainabilitly</a></li> <br>
+         </ul>
+      </div>
+      <div class="foot">
+        <h3>HELP</h3> <br>
+         <ul>
+           <li><a href="#">Shipping and delivery</a></li> <br>
+           <li><a href="#">Returns</a></li> <br>
+           <li><a href="#">Payment Options</a></li> <br>
+           <li><a href="#">Contact </a></li> <br>
+         </ul>
+      </div>
+      <div class="icon">   <!--socilmedia icon-->     
+        <p class="fab fa-facebook-f"></p>   
+        <p class="fab fa-instagram"></p>
+         <p class="fab fa-youtube"></p>
+        <p class="fab fa-twitter"></p>       
+    </div>
+
+
+</footer> 
+
+</body>

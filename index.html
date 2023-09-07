@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <title> Buddha Nepal</title> <!--title for my hemsida-->
+    <link rel="stylesheet" href="style.css"> <!--connect to css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"  type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript">
+      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+      (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='https://embed.tawk.to/626005e9b0d10b6f3e6e7bf9/1g13he68t';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+      })();
+      </script>    
+  </head>
+<body>
+
+  <!--top div for my logo and icon -->
+    <div class="container">
+        <div class="navbar">
+            <img src="images/logo.png" class="logo">
+            <input type="text" id="searchInput" placeholder="Search..." /> 
+            <div class="icons">            
+              <img src="images/500px-Search_Icon.svg.png" class="search-icon" id="search"> <span style="padding-left: 3.1em ;" class="span"></span>
+              <img src="images/fav.png" class="fav-icon"> <span style="padding-left: 3.1em ;" class="span"></span>
+              <img src="images/263142.png" class="shopping-icon">  <span style="padding-left: 3.1em ;" class="span"></span>
+            </div>
+            
+            <div id="myMenu" class="dropdown">  <!--hamburger menu and lists-->
+                <a href="javascript: void(0)" class="buttonX" onclick="closeMenu()">&times;</a>
+                <div class="dropdown-lists">
+                    <a href="#">News</a>
+                    <a href="#">Man</a>
+                    <a href="#">Women</a>
+                    <a href="#">Children</a>
+                    <a href="#">Rea</a>
+                    <a href="#">Collection</a>
+
+                </div>
+            </div>
+            <span class="menu" onclick="openMenu()">&#9776;</span>
+            <script src="app.js"></script> <!--javascript for hamburger menu (close and dropdown)-->
+        </div>        
+
+   
+      
+      
+        <div class="row">
+            <div class="col-1">
+              <h2>JUST DO IT</h2> <img src="images/MicrosoftTeams-image (12).png" class="just">
+              <h3>Start Unknown <br> Finish Unforgettable</h3>
+              <p>(comfortable/stylish)</p>
+              <h4>500 SEK - 5000 SEK</h4>
+              <button class="button">Shop Now<img src="images/arrow.png">
+              </button>
+            </div>
+            <div class="col-2">
+                <img src="images/fp.png" class="fp">
+                <div class="color-box">
+                  <img src="images/a.jpg">
+                </div>
+            </div>
+        </div>           
+    </div>
+
+     <!--slide jv shoes trends-->
+    <div class="trends">
+        <h3 class="topic">TRENDING RIGHT NOW</h1>
+        <div class="slider">
+         <div class="gallery">
+             <img src="images/7.jpg">
+               <div class="desc">AIR FORCE 1 <br> 1 350 SEK</div>
+         </div>
+
+         <div class="gallery">
+            <img src="images/14.jpg">
+            <div class="desc">AIR Nike <br> 1 350 SEK</div>
+         </div>
+
+         <div class="gallery">
+            <img src="images/18.jpg">
+            <div class="desc">Nike vision <br> 750 SEk</div>
+         </div>
+
+         <div class="gallery">
+            <img src="images/19.jpg">
+            <div class="desc">Nike sweatshirt <br> 1 350 SEK</div>
+         </div>
+
+         <div class="gallery">
+            <img src="images/28.jpg">
+            <div class="desc"> Nike AIR FORCE 270 <br> 1 350 SEK</div>
+         </div>
+
+         <div class="gallery">
+            <img src="images/18.jpg">
+            <div class="desc">Nike vision <br> 750 SEk</div>
+         </div>
+
+         <div class="gallery">
+            <img src="images/32.jpg">
+            <div class="desc"> AIR FORCE 1 <br> 1 150 SEK </div>
+         </div>
+
+         <div class="gallery">
+            <img src="images/44.jpg">
+            <div class="desc">Nike Air Max 95 <br> 2 050 SEK</div>
+         </div>
+
+         <div class="gallery">
+            <img src="images/22.jpg">
+            <div class="desc">Nike Air zoom <br> 1 550</div>
+         </div>
+    </div> 
+
+    <!-- div för women, men and children -->
+    <div class="equipment">
+        <h3 class="topic">EQUIPMENT ADAPTED FOR YOU</h3>
+        <div id="men">
+          <h3 id="for">FOR MEN</h3>
+         <button class="now"> <a href="undersidor/boys.html">Shop Now </a></button>
+        <img src="images/men.jpg">
+        </div>
+        <div id="women">
+          <h3 id="wo">FOR WOMEN</h3>
+          <button class="girl">Shop Now </button>
+            <img src="images/grl.jpeg">
+        </div>
+        <div id="children">
+          <h3 id="child">FOR CHILDREN</h3>
+          <button class="barn">Shop Now </button>
+            <img src="images/children.jpg">
+        </div>
+    </div>
+
+  <!--slide jv shoes recommend-->
+
+   <div class="recommend">
+    <h3 class="commend">RECOMMENDATION FOR YOU</h1>
+      <div class="slider">
+        <div class="gallery">
+            <img src="images/29.jpg">
+              <div class="desc"> NIke Tempo <br> 1 350 SEK</div>
+        </div>
+
+        <div class="gallery">
+           <img src="images/28.jpg">
+           <div class="desc"> Nike Dunk High <br> 1 350 SEK</div>
+        </div>
+
+        <div class="gallery">
+           <img src="images/33.jpg">
+           <div class="desc">  Dunk SB <br> 1 150 SEk</div>
+        </div>
+
+        <div class="gallery">
+           <img src="images/32.jpg">
+           <div class="desc"> Nike Air Max <br> 1 350 SEK</div>
+        </div>
+
+        <div class="gallery">
+          <img src="images/32.jpg">
+          <div class="desc"> Nike  Max <br> 1 350 SEK</div>
+       </div>
+
+        <div class="gallery">
+           <img src="images/44.jpg">
+           <div class="desc">Nike Acclimate<br>  1 650 SEk</div>
+        </div>
+
+        <div class="gallery">
+           <img src="images/45.jpg">
+           <div class="desc"> Nike Mercurial <br>  1 050 SEK </div>
+        </div>
+
+        <div class="gallery">
+           <img src="images/46.jpg">
+           <div class="desc">Nike Air Jordan <br> 400 SEK</div>
+        </div>
+
+        <div class="gallery">
+           <img src="images/47.jpg">
+           <div class="desc">Nike Retro <br> 1 349 SEK</div>
+        </div>
+   </div>
+   
+   <!--join membership to open undersidor-->
+   <div class="join">
+    <h2 class="us"> Join US</h2>
+    <div class="us">
+      <img src="images/28.png" class="member">
+      <button class="jo"><a href="undersidor/login.html"> JOIN US </a></button>
+      <h1 class="your">YOUR MEMBERSHIP</h1>
+      <h2 class="glow">"ALONE WE CAN DO SO LITTLE <br> BUT TOGETHER WE CAN DO SO MUCH"</h2>
+    </div>
+   </div>
+
+   <div onclick="scrolltotop()" class="scrollTop">Top</div>
+
+   
+   <!--footer for website-->
+   <footer class="footer">
+      <div class="row">
+        <div class="foot">
+          <h3>Company</h3> <br>
+           <ul>
+             <li><a href="#">About us</a></li> <br>
+             <li><a href="#">Our service</a></li> <br>
+             <li><a href="#">Privacy policy</a></li> <br>
+             <li><a href="#">Affiliate program</a></li> <br>
+           </ul>
+        </div>
+        <div class="foot">
+          <h3 id="aboutu"> About US</h3> <br>
+           <ul>
+             <li><a href="#"> News</a></li> <br>
+             <li><a href="#">Career</a></li> <br>
+             <li><a href="#">Investor</a></li> <br>
+             <li><a href="#">Sustainabilitly</a></li> <br>
+           </ul>
+        </div>
+        <div class="foot ffff">
+          <h3> HELP</h3> <br>
+           <ul>
+             <li><a href="#">Shipping </a></li> <br>
+             <li><a href="#">Returns</a></li> <br>
+             <li><a href="#">Payment Options</a></li> <br>
+             <li><a href="#">Contact Us</a></li> <br>
+           </ul>
+        </div>
+        <div class="icon">        
+          <p class="fab fa-facebook-f" id="fb"></p>   
+          <p class="fab fa-instagram"></p>
+           <p class="fab fa-youtube"></p>
+          <p class="fab fa-twitter"></p>       
+      </div>
+  </footer> 
+
+  <!--animation intro for my website-->
+  <div- class="animation-wrapper">
+  <div class="cover run-once">
+   <div class="containertwo">
+      <video src="video/Nike intro..mp4" autoplay="" muted=""></video>
+   </div>
+</div->
+     
+<!-- slider javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     
+    <script type="text/javascript">
+      $('.slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+				
+</script>
+
+
+
+
+</body>
+</html>
